@@ -10,4 +10,4 @@ A geohraphically relevant social media filter
 
 ## Runtime
 
-	$ ./server.rb
+	$ bundle exec ruby server.rb
