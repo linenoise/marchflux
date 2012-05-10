@@ -28,7 +28,7 @@ class Hashtags < ModeratorArea
   end
 
   get '/*' do | hashtag |
-    json :tweets => %w[hashtag_tweet hashtag_tweet hashtag_tweet]
+    json :fluxes => %w[hashtag_flux hashtag_flux hashtag_flux]
   end
 
   post '/' do
@@ -49,7 +49,7 @@ class People < ModeratorArea
   end
 
   get '/*' do |person|
-    json :tweets => %w[person_tweet person_tweet person_tweet]
+    json :fluxes => %w[person_flux person_flux person_flux]
   end
 
   post '/' do
@@ -70,7 +70,7 @@ class Channels < ModeratorArea
   end
 
   get '/*' do | channel |
-    json :tweets => %w[channel_tweet channel_tweet channel_tweet]
+    json :fluxes => %w[channel_flux channel_flux channel_flux]
   end
 
   post '/' do
@@ -84,10 +84,10 @@ class Channels < ModeratorArea
 
 end
 
-class Tweets < ModeratorArea
+class Fluxes < ModeratorArea
 
   get '/' do
-    json :tweets => %w[tweet_tweet tweet_tweet tweet_tweet]
+    json :fluxes => %w[flux_flux flux_flux flux_flux]
   end
 
   post '/add_to_channel' do

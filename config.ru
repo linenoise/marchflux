@@ -7,5 +7,5 @@ run Rack::URLMap.new( {
   "/hashtags" => Hashtags,
   "/people" => People,
   "/channels" => Channels,
-  "/tweets" => Tweets
+  "/fluxes" => Fluxes
 })
