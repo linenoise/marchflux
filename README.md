@@ -35,9 +35,9 @@ Running the server
 
 When you're ready to roll, go ahead and start the server with:
 
-	$ bundle exec ruby server.rb
+	$ thin start -p 8666 -a 127.0.0.1
 
-This will load a web server on your computer at [http://127.0.0.1:4567](http://127.0.0.1:4567) with the marchflux interface ready to configure.
+This will load a web server on your computer at [http://127.0.0.1:8666](http://127.0.0.1:8666) with the marchflux interface ready to configure.
 
 
 Running the fluxer
