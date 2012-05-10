@@ -45,11 +45,11 @@ The other way to start thin is with a configuration file:
 
 Most likely, you'll want to configure options to store in your config file:
 
-  $ thin config -C thin.con [options]
+	$ thin config -C thin.con [options]
 
 To see all of the available options for configuration, just type:
 
-  $ thin -h
+	$ thin -h
 
 Which will give you a dump of all the possible options.
 
