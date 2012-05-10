@@ -69,9 +69,13 @@ Before continuing, you'll at least want to set it unreadable to other users on y
 
 	$ chmod go-rwx authentication.yml
 
+If you haven't started the front-end but want to test-drive the fluxer, you can do so by loading the text fixture data into your runtime environment:
+
+	$ rake test:load_fixtures
+
 Once those keys are in the ignition, start up the fluxer:
 
-	$ bundle exec ruby fluxer.rb
+	$ daemons/twitter_hashtags.rb (start | stop | restart)
 
 License
 =======
