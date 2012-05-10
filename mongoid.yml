@@ -1,2 +1,16 @@
-host: localhost
-database: marchflux
+development:
+  host: localhost
+  database: marchflux_dev
+  logger: false
+
+test:
+  host: localhost
+  database: marchflux_test
+
+production:
+  host: localhost
+  # port: 
+  # username: 
+  # password: 
+  database: marchflux_prod
+
