@@ -67,8 +67,7 @@ GNU General Public License, version 3
 
 	Marcflux - A geohraphically relevant social media filter
 
-	Copyright (c) 2012 Dann Stayskal <dann@stayskal.com>
-	Copyright (c) 2012 Jill Ada Burrows <jill@adaburrows.com>
+	Copyright (c) 2012 Dann Stayskal and Jill Ada Burrows
 
 	This program is free software: you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
