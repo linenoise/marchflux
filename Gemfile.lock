@@ -14,8 +14,11 @@ GEM
       bson (~> 1.6.2)
     builder (3.0.0)
     colored (1.2)
+    daemon-spawn (0.4.2)
     daemons (1.1.8)
     eventmachine (0.12.10)
+    faraday (0.8.0)
+      multipart-post (~> 1.1)
     http_parser.rb (0.5.3)
     i18n (0.6.0)
     json (1.7.1)
@@ -26,11 +29,13 @@ GEM
       mongo (~> 1.3)
       tzinfo (~> 0.3.22)
     multi_json (1.3.4)
+    multipart-post (1.1.5)
     rack (1.4.1)
     rack-protection (1.2.0)
       rack
     rack-test (0.6.1)
       rack (>= 1.0)
+    rake (0.9.2.2)
     simple_oauth (0.1.8)
     sinatra (1.3.2)
       rack (~> 1.3, >= 1.3.6)
@@ -52,6 +57,11 @@ GEM
       daemons (~> 1.1)
       multi_json (~> 1.3)
       twitter-stream (>= 0.1.14, < 1)
+    twitter (2.2.9)
+      activesupport (>= 2.3.9, < 4)
+      faraday (~> 0.8)
+      multi_json (~> 1.3)
+      simple_oauth (~> 0.1.6)
     twitter-stream (0.1.15)
       eventmachine (>= 0.12.8)
       http_parser.rb (~> 0.5.1)
@@ -66,10 +76,13 @@ DEPENDENCIES
   associative_memory
   bson_ext
   colored
+  daemon-spawn
   json
   mongoid
+  rake
   sinatra
   sinatra-contrib
   thin
   tweetstream
+  twitter
   yajl-ruby
