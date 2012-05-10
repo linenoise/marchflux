@@ -39,6 +39,19 @@ When you're ready to roll, go ahead and start the server with:
 
 This will load a web server on your computer at [http://127.0.0.1:8666](http://127.0.0.1:8666) with the marchflux interface ready to configure.
 
+The other way to start thin is with a configuration file:
+
+  $ thin start -C thin.conf
+
+Most likely, you'll want to configure options to store in your config file:
+
+  $ thin config -C thin.con [options]
+
+To see all of the available options for configuration, just type:
+
+  $ thin -h
+
+Which will give you a dump of all the possible options.
 
 Running the fluxer
 ------------------
