@@ -76,6 +76,15 @@ If you haven't started the front-end but want to test-drive the fluxer, you can 
 Once those keys are in the ignition, start up the fluxer:
 
 	$ daemons/twitter_hashtags.rb (start | stop | restart)
+	$ dawmons/twitter_users.rb (start | stop | restart)
+
+Contributors
+============
+
+Original authors:
+
+* Dann Stayskal - fluxers, AI integration, backend processing
+* Jill Burrows - responsive front-end 
 
 License
 =======
@@ -84,7 +93,7 @@ GNU General Public License, version 3
 
 	Marcflux - A geohraphically relevant social media filter
 
-	Copyright (c) 2012 Dann Stayskal and Jill Ada Burrows
+	Copyright (c) 2012 Dann Stayskal <dann@stayskal.com>
 
 	This program is free software: you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
