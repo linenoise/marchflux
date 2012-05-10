@@ -41,7 +41,7 @@ This will load a web server on your computer at [http://127.0.0.1:8666](http://1
 
 The other way to start thin is with a configuration file:
 
-  $ thin start -C thin.conf
+	$ thin start -C thin.conf
 
 Most likely, you'll want to configure options to store in your config file:
 
