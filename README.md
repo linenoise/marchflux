@@ -11,7 +11,7 @@ Marchflux is a ruby application that contextualizes social media data by geograp
 
 It does this through two components:
 
-* The web server (`server.rb`) gives you the ability to dynamically configure hashtags and users to follow, and provide basic training to the system on what kinds of things go in which kinds of contexts.
+* The web server (`config.ru` and `app.rb`) gives you the ability to dynamically configure hashtags and users to follow, and provide basic training to the system on what kinds of things go in which kinds of contexts.
 * The fluxer (`fluxer.rb`) runs in the background, pulling in social media data, analyzing it, and dispatching it to the configured channels.
 
 This is designed to run in the terminal on Linux or Mac OSX.  It *might* run on windows (through [Cygwin](http://cygwin.com/), most likely).
